@@ -1,0 +1,10 @@
+.sublinhado{
+    text-decoration: underline;
+}
+.acima{
+    text-indent: 50px;
+    text-decoration: overline;
+}
+.sobre{
+    text-decoration: line-through;
+}
