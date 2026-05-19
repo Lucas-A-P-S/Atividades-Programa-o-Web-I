@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <p id="Primeiro">Este é o primeiro parágrafo!</p>
+    <p id="Segundo">Este é o segundo parágrafo!</p>
+    <p id="Terceiro">Este é o terceiro parágrafo!</p>
+
+    <button onclick="Mostrar()">Mostrar Parágrafos</button>
+
+    <script>
+        function Mostrar(){
+            document.getElementById("Primeiro").style.display = "block";
+            document.getElementById("Segundo").style.display = "block";
+            document.getElementById("Terceiro").style.display = "block";
+        }
+    </script>
+
+    <button onclick="Ocultar()">Ocultar Parágrafos</button>
+
+    <script>
+        function Ocultar(){
+            document.getElementById("Primeiro").style.display = "none";
+            document.getElementById("Segundo").style.display = "none";
+            document.getElementById("Terceiro").style.display = "none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <p id="paragrafoMudarCor" style="color: blue;">Este é um parágrafo!</p>
+
+    <button onclick="alterarCorVermelho()">Alterar para cor vermelha</button>
+
+    <script>
+        function alterarCorVermelho(){
+            document.getElementById("paragrafoMudarCor").style.color = "red";
+        }
+    </script>
+
+    <button onclick="alterarCorAzul()">Alterar para cor azul</button>
+
+    <script>
+    function alterarCorAzul(){
+            document.getElementById("paragrafoMudarCor").style.color = "blue";
+    }
+    </script>
+</body>
+</html>
